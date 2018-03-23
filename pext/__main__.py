@@ -23,6 +23,9 @@ This is the main Pext file. It will initialize, run and manage the whole of
 Pext.
 """
 
+USER_BASE = None
+USER_SITE = None
+
 import argparse
 import atexit
 import configparser
